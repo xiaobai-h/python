@@ -1,0 +1,51 @@
+列表
+    1、 列表.append() 添加
+    2、 列表.insert(位置, '内容') 插入
+    3、 del 列表[位置] 删除
+    4、 列表.pop(位置) 删除
+    5、 列表.remove('内容') 删除
+    6、 列表.sort() 正排，永久
+    7、 列表.sort(reverse=True) 反排，永久
+    8、 列表.sorted() 临时，可加reverse=True
+    9、 列表.reverse() 逆序
+    10、len(列表) 长度
+    11、str 格式化
+操作列表
+    1、 range(起点， 终点， 间隔) #左开右闭
+    2、 list(range()) 创建链表
+    3、 **表示乘方
+    4、 min(列表) 求最小值
+    5、 max(列表) 求最大值
+    6、 sum(列表) 求和
+    7、 squares = [value**2 for value in range(1, 11)] 列表解析
+    8、 列表[起点，终点] 切片
+    9、 元组()
+条件测试
+    1、if的使用
+    2、in判断特定值是否包含在列表中； not in与之相反
+字典
+    1、 字典['键'] = 值  添加
+    2、 del 字典['键'] 删除
+    3、 字典['键'] = 值  修改
+    4、 字典.items() 遍历键值对
+    5、 字典.keys()  遍历所有键
+    6、 字典.values() 遍历所有值
+嵌套
+    1、 字典列表
+    2、 列表字典
+    3、 range(数量) 
+    4、 字典字典
+输入
+    1、 input() 输入
+    2、 int() 字符转数字
+    3、 % 求模
+while 
+    1、 遍历
+函数
+    1、 位置实参
+    2、 关键词实参
+    3、 形参前面加上*可接受任意数量的实参，保存在元组中
+    4、 import 导入函数，
+    5、 from 文件.py import 函数 导入函数
+    6、 from pizza import make_pizza as mp 指定别名
+    7、 from pizza import * 导入所有函数
